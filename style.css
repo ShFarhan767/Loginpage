@@ -1,0 +1,176 @@
+.main-area{
+    border-radius: 10%;
+}
+.section-area{
+    overflow: hidden;
+    background-color: hsl(0deg 0% 100%);
+}
+.left-section{
+    padding: 0px;
+    width: 100%;
+    height: 500px;
+    border-top-left-radius:3%;
+    border-bottom-left-radius:3%;
+    overflow: hidden;
+    background-color: rgb(8 107 242);
+}
+.Logo{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+.left-section ul li{
+    overflow: hidden;
+    margin-top: 10px;
+    list-style: none;
+}
+.left-section ul li h1{
+    font-size:22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.left-section ul li p{
+    font-size:18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+/* ===============right-section==================== */
+
+.right-section{
+    width: 100%;
+    height: 500px;
+    border-top-right-radius:3%;
+    border-bottom-right-radius:3%;
+    background-color: hsl(0, 18%, 96%);
+}
+.right-section h2{
+    margin-top: 95px;
+    margin-left: 50px;
+    color: rgb(8 107 242);
+}
+.right-section-p{
+    margin-left: 50px;
+    color: rgb(186, 183, 183);
+}
+.right-section-p span{
+    color:rgb(8 107 242);
+}
+.Username{
+    display: block;
+    width: 50%;
+    margin-left: 50px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    line-height: 1.5;
+    color: #212529;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: none;
+}
+.password{
+    width: 50%;
+    outline: none;
+    margin-left: 50px;
+    color: #212529;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    background-color: transparent;
+    border-bottom: 1px solid #ced4da !important;
+    border: none;
+}
+.fa-user{
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -20px;
+}
+.fa-lock{
+    margin-top: 2%;
+    margin-left:-20px !important;
+}
+.signIn{
+    background: rgb(8 107 242);
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    line-height: 1.5;
+    border-radius: 5px;
+    color: white;
+    margin-left:50px;
+}
+.forget{
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(8 107 242);
+}
+.custom-checkbox{
+    margin-top:20px;
+    margin-left: -40%;
+    color: rgb(186, 183, 183);
+}
+.fa-square-check{
+    color: rgb(8 107 242);
+}
+/* ===============right-section End==================== */
+@media all and (min-width:320px) and (max-width:780px){
+    .carousel-item img{
+        height: 300px;
+        margin-left: 0% !important;
+    }
+    .left-section ul li h1 {
+        font-size: 20px;
+    }
+    .left-section ul li p {
+        font-size: 13px;
+    }
+    .right-section h2 {
+        margin-top: 50px;
+    }
+    .Username {
+        width: 65%;
+    }
+    .password {
+        width: 65%;
+    }
+    .fa-user {
+        position: absolute;
+        margin-left: 70%;
+        margin-top: -20px;
+    }
+    .custom-checkbox {
+        margin-top: 10px;
+        margin-left: 17%;
+    }
+    .forget {
+        margin-top: 15px;
+    }
+    .right-section-p {
+        margin-top: 35px;
+    }
+    .signIn {
+        width: 32%;
+        height: 35px;
+    }
+    .right-section{
+        border-bottom-right-radius:4%;
+        border-bottom-left-radius:4%;
+        border-top-right-radius:0%;
+    }
+    .left-section{
+        border-top-right-radius:4%;
+        border-top-left-radius:4%;
+        border-bottom-left-radius:0%;
+    }
+}
